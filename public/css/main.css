@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, serif;
+}
+main {
+    padding: 5%;
+}
+.main_header {
+    width: 100%;
+    height: 40px;
+    background-color: #9cc7c7;
+    padding-left: 5%;
+}
+.main_header-nav {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.main_header_item-list {
+    list-style: none;
+    margin: 5%;
+    padding: 0%; 
+    display: flex;
+}
+
+.main_header-item a {
+    text-decoration: none;
+    color: black;
+
+}
+.main_header-item {
+    margin: 5%;
+    padding: 5%; 
+}
+.main_header-item a:hover,
+.main_header-item a:active,
+.main_header-item a.active {
+    color:aliceblue
+}
+.form-control label,
+.form-control input, 
+.form-control textarea {
+    display: block;
+}
+
+.form-control input,
+.form-control textarea {
+    border: 2px solid #9cc7c7;
+    font: inherit;
+    border-radius: 2px;
+}
+button {
+    font: inherit;
+    border: 2px solid #9cc7c7;
+    color: #192a2a;
+    background: #dbdbdb;
+    border-radius: 3px;
+    cursor: pointer;
+}
+button:hover,
+button:active{
+    background-color: #192a2a;
+    color: #dbdbdb;
+}
+.product-form {
+    margin: 1px 0px;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.card {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  }
+
+  .card__header,
+  .card__content {
+    padding: 1rem;
+  }
+  
+  .card__header h1,
+  .card__content h1,
+  .card__content h2,
+  .card__content p {
+    margin: 0;
+  }
+  
+  .card__image {
+    width: 100%;
+  }
+
+  .card__image img {
+    width: 100%;
+  }
+  
+  .card__actions {
+      padding: 1rem;
+      text-align: center;
+  }
+  
+  .card__actions button,
+  .card__actions a {
+      margin: 0 0.25rem;
+  }
+  
+  .btn {
+    font: inherit;
+    border: 1px solid #00695c;
+    color: #00695c;
+    background: white;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .btn:hover,
+  .btn:active {
+    background-color: #00695c;
+    color: white;
+  }
+
+  .centered {
+    text-align: center;
+  }
+  
